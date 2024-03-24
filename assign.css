@@ -1,0 +1,213 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration:none;
+    
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+header .logo h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color:  blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+header .navbar a{
+    color: white;
+    font-size: 1.8rem;
+    margin-left: 3rem;
+}
+
+header .navbar a:hover,
+header .navbar a.active{
+    color: blueviolet;
+}
+
+.heading{
+    margin-top: 2rem;
+    text-align:center;
+    margin-bottom: 2rem;
+    
+}
+header.sticky{
+    border-bottom: 0.1rem solid grey;
+    background:lightgreen;
+}
+
+.books{
+    background-color:darksalmon;
+    padding-top:40px;
+    padding-left:10px;
+    align-items:center;
+    width:10vw;
+    height:100vh;
+}
+.CSE{
+    padding-top:60px;
+    padding-bottom:95px;
+}
+.ECE{
+    padding-bottom:95px;
+}
+.EEE{
+    padding-bottom:95px;
+}
+.MECH{
+    padding-bottom:15px;
+}
+.books a:hover{
+    color:red;
+}
+.main-home{
+display:flex;
+background-color:goldenrod;
+width:90vw;
+text-align:center;
+justify-content:center
+}
+.image{
+    height:15vh;
+    background-size: cover;
+    padding-top: 5px;
+    
+}
+.main2{
+    display:flex;
+    margin-top:9.5vh;
+    font-size:20px;
+}
+.image{
+    padding-top:40px;
+    height:50vh;
+}
+.para1{
+    font-size:2.5rem;
+   margin:70px;
+    color:blue;
+    font-family:'Brush Script MT';
+}
+.para2{
+    font-size:2.5rem;
+    color:red;
+    font-family:'Brush Script MT';
+}
+section{
+    padding: 2rem 5%;
+}
+.heading{
+    margin-bottom: 2rem;
+}
+#Login{
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+    margin:10px;
+    height:100vh;
+    font-size:2.5rem;
+}
+.image2{
+    height:30vh;
+    padding-bottom:10px;
+}
+.login{
+    padding-bottom:40px;
+    font-family:'Brush Script MT';
+    color:blueviolet;
+}
+.submit{
+    margin-left:95px;
+    padding-left:7px;
+    padding-right:7px;
+    font-size:20px;
+   text-align:center;
+   
+}
+input{
+    height:22px;
+}
+
+#Register{
+    background-color:burlywood;
+    font-size:2rem;
+    height:100vh;
+}
+.registers{
+    margin-top:80px;
+    font-size:2.5rem;
+}
+input{
+    border:2px solid black;
+}
+.address{
+    height:10vh;
+}
+#Catologue{
+    height:100vh;
+    background-color:pink;
+    font-size:2rem;
+}
+.table1{
+    padding-top:80px;
+    margin-left:80px;
+    
+}
+td{
+    padding:30px;
+}
+#CSE{
+    height:50vh;
+    background-color:cornflowerblue;
+    font-size:1.5rem;
+}
+.cse{
+   padding-top:50px;
+   font-size:2rem;
+   align-items:center;
+   text-align:center;
+
+}
+#textbooks{
+    padding:5px;
+}
+#ECE{
+    height:40vh;
+    background-color:darkorchid;
+    font-size:1.5rem;
+}
+.lists{
+    font-size:2rem;
+    padding-top:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ ul li{
+    padding:10px;
+}
+#EEE{
+    height:40vh;
+    background-color:darkslateblue;
+    font-size:1.5rem;
+}
+#MECH{
+    height:40vh;
+    background-color:yellow;
+    font-size:1.5rem;
+}
+ol li{
+        padding:10px;
+}
